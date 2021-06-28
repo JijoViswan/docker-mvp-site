@@ -105,7 +105,7 @@ Add-HostsEntry $renderingHost
 git update-index --assume-unchanged .env
 
 ###############################
-# Populate the environment file
+#  Populate the environment file
 ###############################
 Write-Host "Populating required .env file values..." -ForegroundColor Green
 
